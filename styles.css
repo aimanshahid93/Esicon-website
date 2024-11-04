@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    background-color: #003366 !important; /* Dark blue background for the navbar */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* White color for links */
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00; /* Light color on hover */
+}
+
+.dropdown-menu {
+    background-color: #003366 !important; /* Dark blue background for dropdowns */
+}
+
+.dropdown-item {
+    color: white; /* White text for dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #004080 !important; /* Darker blue on hover */
+}
+.carousel-item{
+    height:550px !important;
+}
+.greetings {
+    margin: 40px 0;
+}
+.greetings p{
+    text-align: left;
+    color:rgb(0, 0, 0);
+    display:block;
+    font-family:Urbanist, sans-serif;
+    font-size:16px;
+    font-weight:700;
+}
+.team-organiser h5{
+    color:rgb(233, 174, 35);
+    display:inline-block;
+    font-family:Urbanist sans-serif;
+    font-size:20px;
+    font-weight:800;
+    margin-top:10px;
+}
+.team-organiser{
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;  
+    
+}
+.rounded-circle-2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    outline-color:rgb(9, 12, 141);
+    outline-offset:0px;
+    outline-style:solid;
+    outline-width:4px;
+}
+.golden-heading {
+  box-sizing:border-box;
+  color:rgb(233, 174, 35);
+  display:inline-block;
+  font-family:Urbanist sans-serif;
+  font-size:52px;
+  font-weight:800;
+}
+
+.team {
+    margin: 20px 0;
+    background-color: #003366;
+    padding: 20px;
+}
+
+.team-member {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width:25%;
+}
+
+footer {
+    background-color: #003366; /* Dark blue footer */
+    color: white; /* White text in footer */
+}
